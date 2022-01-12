@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alicia Brideau</title>
     <style>
+        
         body {
          background-color: palevioletred;
          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
-    header {
+         header {
          Background-color: lightblue;
-          color: black;
+         color: black;
+         text-align: center;
     }  
-    
+
     /* THE MEDIA QUERY */
 
     @media screen and (min-width: 600px) {
@@ -27,7 +29,7 @@
 
     @media screen and (min-width: 1000px) {
         .container {
-         width: 960px ;
+         width: 700px ;
          margin: 0 auto;
         }
     }
@@ -37,25 +39,27 @@
 <body>
 
     <header>
-        <div class="container">
+        <div>
             <h1>Alicia Brideau</h1>
         </div>
     </header>
 
     <main>
-        <div class="container">
-            <img src="images/alicia.jpg" alt="head_shot_of_alicia" width="150">
-        <dl>
-            <dt>Student Number</dt>
-            <dd>041049241</dd>
-            <dt>Program Name</dt>
-            <dd>IMD: Interactive Media and Deisgn</dd>
-            <dt>Course code and name</dt>
-            <dd>MTM6201 Web Dev 02</dd>
-            <dt>An interesting fact about me is:</dt>
-            <dd>I won an enterpreneurship competetion and gained 500$ for being the "Fan Favorite"</dd>
-        </dl>
+        <div>
+            <img class="container" src="images/alicia.jpg" alt="head_shot_of_alicia" width="100">
         </div>
+        <div>
+            <dl class="container">
+                <dt>Student Number</dt>
+                <dd>041049241</dd>
+                <dt>Program Name</dt>
+                <dd>IMD: Interactive Media and Deisgn</dd>
+                <dt>Course code and name</dt>
+                <dd>MTM6201 Web Dev 02</dd>
+                <dt>An interesting fact about me is:</dt>
+                <dd>I won an enterpreneurship competetion and gained 500$ for being the "Fan Favorite"</dd>
+            </dl>
+        </div>    
     </main>
     <footer>
         <p>&copy; Alicia Brideau 2022</p>
